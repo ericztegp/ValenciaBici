@@ -1,0 +1,193 @@
+body {
+    font-family: Arial;
+    background: #fff;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+main {
+    padding: 10px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th {
+    background: #000;
+    color: white;
+    padding: 8px;
+    font-size: 14px;
+}
+
+td {
+    padding: 6px 8px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    font-size: 14px;
+}
+
+tr:nth-child(even) {
+    background: #fff;
+}
+
+tr:hover {
+    background: #f5f5f5;
+}
+
+.num-good { 
+	color: green; font-weight: bold; 
+}
+
+.num-moderate { 
+	color: orange; font-weight: bold; 
+}
+
+.num-low { 
+	color: red; font-weight: bold; 
+}
+
+.badge-open, .badge-closed {
+    padding: 2px 8px;
+    font-size: 13px;
+}
+
+.actions {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.lang-switcher {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.btn-lang {
+    display: inline-block;
+    padding: 6px 16px;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 4px;
+}
+
+.btn-lang:hover {
+    background: #555;
+}
+
+.english-section {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 2px solid #ddd;
+}
+
+.english-section h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.english-section p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+table.glossary td:first-child {
+    font-weight: bold;
+}
+
+table.glossary td:last-child {
+    text-align: left;
+    font-size: 13px;
+    color: #555;
+}
+
+.btn-secondary {
+    display: inline-block;
+    padding: 10px 25px;
+    background: #6c757d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #5a6268;
+    margin-left: 8px;
+}
+
+.btn-secondary:hover {
+    background: #5a6268;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 25px;
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #1e7e34;
+}
+
+.btn-primary:hover {
+    background: #218838;
+}
+
+#map {
+    height: 450px;
+    width: 100%;
+    border: 2px solid #444;
+    margin: 10px 0;
+}
+
+.map-legend {
+    background: white;
+    padding: 8px 12px;
+    border: 2px solid #999;
+    line-height: 2;
+    font-size: 13px;
+}
+
+.legend-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+footer {
+    text-align: center;
+    padding: 12px;
+    color: #999;
+    font-size: 13px;
+}
+
+.message {
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 400px;
+    background: white;
+}
+
+.message.error { 
+	color: red; 
+}
+
+.message.warning { 
+	color: orange; 
+}
